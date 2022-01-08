@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1920px) {
+    .container { width: 1600px; }
+    .zagolovok { width: 70%; font-size: 141px; }
+    .rectangle { margin-top: 13in; }
+}
+
+@media only screen and (max-width: 1600px) {
+    .container { width: 1280px; }
+    .zagolovok { width: 70%; font-size: 130px; }
+/*    .buttononas { height: 0.9in; width: 3in;}
+    .searchplace { height: 0.9in; width: 3in;}
+    .gotomap { height: 0.9in; width: 5in;} */
+}
+
+@media only screen and (max-width: 1280px) {
+    .container { width: 992px; }
+    .zagolovok { width: 100%; font-size: 155px; }
+    .searchplace {
+        margin-top: 0.7in;
+        height: 1.4in;
+        width: 5in; 
+        margin-left: 1in;
+    }
+    .buttononas {
+        margin-top: 0.7in;
+        height: 1.4in;
+        width: 5in;
+    }
+    .buttononas__p {
+        font-size: 75px;
+    }
+    .gotomap {
+        margin-top: 1in;
+        height: 1.4in;
+        width: 8in;
+    }
+    .gotomap__p {
+        font-size: 75px;
+    }
+    .rectangle {
+        margin-top: 9.4in;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .zagolovok { width: 100%; font-size: 175px; margin: 0, auto; }
+    .container { width: 900px; }
+    .buttononas { margin-top: 4in; }
+    .searchplace { margin-top: 4in; }
+    .gotomap { margin-top: 4.5in; }
+    .rectangle { margin-top: 8.55in; }
+}
+
+@media only screen and (max-width: 768px) {
+    .container { width: 720px; }
+}
